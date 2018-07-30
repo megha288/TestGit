@@ -5,7 +5,7 @@ stage('checkout SCM') {
 stage('Build') {
    echo 'Hello world'
    sh 'java -version'
-   sh 'mvn --version'
+   
    }
    
 }
